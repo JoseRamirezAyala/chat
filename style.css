@@ -1,0 +1,91 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    margin-right: 300px;
+    margin-left: 300px;
+    height: 700px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.chat-header {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(245, 181, 103);
+    border: 5px;
+    border-radius: 10px;
+    border-style: groove;
+    border-color: orange;
+    height: 20%;
+}
+
+.chat-body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(249, 209, 160);
+    height: 60%;
+    border: 5px;
+    border-radius: 10px;
+    border-style: groove;
+    border-color: orange;
+}
+
+.chat-footer {
+    background-color: antiquewhite;
+    height: 20%;
+    border: 5px;
+    border-radius: 10px;
+    border-style: groove;
+    border-color: orange;
+    display: flex;
+    flex-direction: row;
+}
+
+.type-box {
+    width: 80%;
+}
+
+.type-button {
+    width: 20%;
+}
+
+.send-button {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(138, 244, 244);
+    font-size: larger;
+    border-radius: 10px;
+}
+
+.send-button {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(138, 244, 244);
+    font-size: larger;
+    border-radius: 10px;
+}
+
+.send-button:hover {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(115, 249, 249);
+    font-size: larger;
+    border-radius: 10px;
+}
+
+.send-button:active {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(59, 109, 109);
+    font-size: larger;
+    border-radius: 10px;
+}
+
+.send-text {
+    height: 95%;
+    width: 99%;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
