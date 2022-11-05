@@ -87,3 +87,10 @@
     background-color: antiquewhite;
     border-radius: 10px;
 }
+
+.send-text:focus {
+    height: 95%;
+    width: 99%;
+    background-color: rgb(199, 173, 139);
+    border-radius: 10px;
+}
